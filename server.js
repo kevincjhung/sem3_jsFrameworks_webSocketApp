@@ -46,7 +46,7 @@ app.prepare()
 				const count = (hasChoice ? Math.max(0, answers[choice]) : 0) + 1;
 
 				answers = { ...answers, [choice]: count };
-
+				console.log(choice, ' ', count);
 				pusher.trigger('poll-board', 'new-answer', { choice, count });
 			}
 		});
