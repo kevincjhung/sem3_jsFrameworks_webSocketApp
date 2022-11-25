@@ -46,8 +46,8 @@ class IndexPage extends Component {
   }
 
   render() {
-    const question = `Which is the largest continent in the world by population?`;
-    const choices = ['Africa', 'Asia', 'Europe', 'North America', 'South America'];
+    const question = `What is the meaning of life?`;
+    const choices = ['Pumpkins', '42', 'Life is meaningless', 'Pursuit of pleasures', 'Hedonism', 'Travel the world', 'have grandkids'];
     
     return (
       <Layout pageTitle="Realtime Data Visualization">
